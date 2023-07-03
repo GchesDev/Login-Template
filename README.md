@@ -1,8 +1,10 @@
 # Login-Template
 Uma simples tela de Login.
 
-![image](![image](https://github.com/GchesDev/Login-Template/assets/138361633/d85cc7c1-d119-42d2-9a5a-d6f161fbba2a)
-)
+<div align="center">
+<img src="https://github.com/GchesDev/Login-Template/issues/1#issue-1785306251" width="700px" />
+</div>
+
 
 ## Ferramentas utilizadas:
 
