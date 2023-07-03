@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+:root{
+    --fonte--principal: 'Krona One', sans-serif;
+    --fonte--secundaria: 'Montserrat', sans-serif;
+    --cor--principal: #221a17;
+
+}
+
+html, body {
+    height: 100%;
+}
+
+body{
+    background-image: url("/assets/keyboard.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center; /*independente do tamanho da tela, vai ficar centralizado.*/
+    width: 100%;
+    margin-top: 100px;
+}
+
+.card{
+    background-color: #ffffff25;
+    padding: 30px;
+    border-radius: 4%;
+    box-shadow: 3px 3px 1px 0px #00000070;
+
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--cor--principal);
+    font-family: var(--fonte--principal);
+    font-size: 25px;
+}
+
+input{
+    width: 100%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid #00000070 ;
+    background-color: transparent;
+    outline: none;
+    font-size: 16px;
+    transition: all;
+}
+
+input::placeholder{
+    color: black;
+}
+input:focus{
+    border-bottom: 2px solid #00000199;
+}
+
+.label-float{
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.label-float label{
+    color: #00001199;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .2s ease-out;
+}
+
+
+button{
+    background-color: transparent;
+    border-color: #00001199;
+    padding: 7px;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: all .2s ease-out;
+    margin-bottom: 20px;
+
+}
+
+button:hover{
+    background-color: #00001199;
+    color: #fff;
+}
+
+.justify{
+    display: flex;
+    justify-content: center;
+    font-family: var(--fonte--secundaria);
+}
+
+.link{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(1, 17, 158);
+}
+
